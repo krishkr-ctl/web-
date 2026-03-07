@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+.top img{
+    border-radius: 50%;
+    margin-right: 10px;
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+       /* Navbar */
+nav{
+    background:#1f2c47;
+    padding:15px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+nav h1{
+    color:white;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#38bdf8;
+}
+.ch{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+
+    
+}
+
+.dropbtn{
+    background:white;
+    padding:10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+.dropbtn:hover{
+    transform: scale(1.2);
+    color: #ff0000;
+    
+}
+
+.dropbtn{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right,#2563eb, #38bdf8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0 5px 110px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.dropdown-content a:hover{
+    background: #f1f5f9;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="top">
+            <img src="hanuman-render-close-up-4k-hd-3d-ahhiyo7dqfbi8muk.jpg" alt="img">
+            <h1>Gyansetu</h1>
+        </div>
+    <ul>
+        <li><a href="main.html">Home</a></li>
+        <li><a href="calc.html">Calculator</a></li>
+        <li><a href="#pyq.html">PYQ</a></li>
+        <li><a href="#contact.html">Contact</a></li>
+    </ul>
+    </nav>
+<section>
+    <h2 style="font-size:30px;">Select Subject</select></h2>
+
+
+<nav class="ch">
+    <div class="dropdown">
+        <button class="dropbtn">
+            Branch
+        </button>
+        <div class="dropdown-content" id="dropdownMenu"> 
+            <a href="main.html">unit 1</a>
+            <a href="calc.html">unit 2</a>
+            <a href="main.html">pyq</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Physics</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">ch-2</a>
+                <a href="#">ch-2</a>
+                <a href="#">ch-2</a>
+                <a href="#">ch-5</a>
+                <a href="#">ch-5</a>
+            </div>
+    </div>   
+    <div class="dropdown">
+        <button class="dropbtn">Chemistry</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">ch-3</a>
+                <a href="#">ch-3</a>
+                <a href="#">ch-3</a>
+                <a href="#">ch-3</a>
+                <a href="#">ch-5</a>
+            </div>
+    </div> 
+    <div class="dropdown">  
+        <button class="dropbtn">Maths</button>
+            <div class="dropdown-content" id="dropdownMenu">
+                <a href="#">ch-1</a>
+                <a href="#">ch-1</a>
+                <a href="#">ch-1</a>
+                <a href="#">ch-1</a>
+                <a href="#">ch-5</a>
+            </div>
+    </div>     
+</nav>    
+
+
+</section><hr>
+
+
+<footer>
+    © 2026 Gyansetu | All Rights Reserved
+</footer>
+</body>
+</html>
